@@ -11,9 +11,27 @@ function Contact() {
    e.preventDefault()
    setisLoading(true)
 
-   emailjs.sendForm(
-    
-   )
+   emailjs.send(
+    import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    {
+      from_name: form.name,
+      to_name: "Ignacio",
+      from_email: form.email,
+      to_email: "nosoyignacio@gmail.com",
+      message: form.message
+    },
+    import.meta.env.VITE_APP_EMAILJS_KEY
+   ).then(() => {
+    setisLoading(false)
+    //TO DO: Show succes message
+    //TO DO: Hide alert
+
+   }).catch((er) => {
+    setisLoading(false)
+    console.log(er)
+    //TO DO: Show error
+   })
   }
   const handleChange = (e) => {
     setForm({...form, [e.target.name]: e.target.value})
