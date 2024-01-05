@@ -1,4 +1,4 @@
-import { meta, scaleIA, prototypedevs, amipet } from "../../assets/images";
+import {scaleIA, prototypedevs, amipet } from "../../assets/images";
 import {
     car,
     contact,
@@ -16,9 +16,6 @@ import {
     pricewise,
     react,
     redux,
-    snapgram,
-    summiz,
-    threads,
     postgresql
 } from "../../assets/icons";
 
