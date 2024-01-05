@@ -4,6 +4,7 @@ import Fox from "../models/Fox"
 import Loader from "../components/Loader"
 import { Canvas } from "@react-three/fiber";
 import useAlert from "../hooks/useAlert";
+import Alert from "../components/Alert"
 
 function Contact() {
 
