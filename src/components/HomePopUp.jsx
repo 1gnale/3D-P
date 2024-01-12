@@ -23,7 +23,7 @@ const renderObject = {
   ),
   2: (
     <InfoBox
-      text="I woked with some companies and picked up many skills along the way"
+      text="I worked with some companies and picked up many skills along the way"
       link="/about"
       bntText="Learn More"
     />
@@ -31,7 +31,7 @@ const renderObject = {
   3: (
     <InfoBox
       text="I had multiple projects to success over the time. Curious about them?"
-      link="/projets"
+      link="/projects"
       bntText="Look my work"
     />
   ),
