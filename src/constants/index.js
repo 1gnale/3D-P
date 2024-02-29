@@ -102,7 +102,7 @@ export const experiences = [
         company_name: "Amipet",
         icon: amipet,
         iconBg: "#a2d2ff",
-        date: "September 2023 - December 2023",
+        date: "September 2023 - Present",
         points: [
             "I joined as a voluntary Front-end developer at the Chilean project Amipet, aiming to improve the quality of life for animals developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
